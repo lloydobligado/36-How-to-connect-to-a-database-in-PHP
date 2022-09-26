@@ -19,7 +19,7 @@
 
     if ($resultCheck > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
-            echo $row['user_uid'] . "<br>";
+            echo $row['user_first'] . $row['user_last'] . $row['user_uid'] . "<br>";
         }
     }
 ?>

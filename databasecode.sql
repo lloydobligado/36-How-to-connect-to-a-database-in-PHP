@@ -6,3 +6,5 @@ CREATE TABLE users(
     user_uid varchar(256) not null,
     user_pwd varchar(256) not null
 );
+
+INSERT INTO users (user_first, user_last, user_email, user_uid, user_pwd) VALUES ('Daniel', 'Nielsen', 'danielnielsen@gmail.com', 'Admin', 'test123');
